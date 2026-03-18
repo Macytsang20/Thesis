@@ -1,2 +1,8 @@
 # Thesis
 Thesis: Predicting bed occupancy in hospital using time series analysis and deep learning
+The need for bed occupancy is rising rapidly in the NHS hospitals. The general overnight occupancy and acute beds are consistently higher than the numbers recommended by the NHS. As a result, timely forecasts of bed occupancy are vital for staffing, elective surgery scheduling, and surge planning. Most hospitals record daily admissions and discharges by specialty. From these time series, one can derive historical occupancy and build predictive models.
+
+The primary objective of this project is to develop a predictive model that forecasts the number of occupied beds across different specialties 10 days in advance, utilising time series data on admissions and discharges for various specialities at Aberdeen Royal Infirmary (ARI). We first applied exponential smoothing methods, including AAdA ETS for General Surgery and ANA ETS for Cardiology. We then compared these results with those from a Long Short-Term Memory (LSTM) model with 128 units and two layers for the General Surgery domain. A comparison of the two approaches, based on R-squared value and error criteria, showed that the Long Short-Term Memory (LSTM) model yielded superior results.
+
+LSTM is a better fit model compared to the two approaches on the same dataset. It provided methodological insights to lay the groundwork for developing a predictive tool that hospital management can use to support operations.
+<img width="468" height="386" alt="image" src="https://github.com/user-attachments/assets/f465c721-af4e-4fdf-8cfc-8d18fbba9607" />
